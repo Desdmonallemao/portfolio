@@ -1,0 +1,411 @@
+*{
+    box-sizing: border-box;
+}
+iframe{
+    width: 100%;
+    border: 0;
+    height: 350px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+:root{
+    --color1: #23e909;
+    --color2: #ffffff;
+    --color3: #f4f4f4;
+}
+div.cover{
+    background: url("cover1.png") no-repeat center/100% 100%, url("cover.jpg") no-repeat center/cover;
+    background-color: rgb(81, 230, 125);
+    height: 360px;
+    position: relative;
+}
+img.photo{
+    height: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+}
+h1.nom{
+    color: var(--color2);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-transform: lowercase;
+    font-size: 42px;
+}
+p.description{
+    color: lightgray;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+div.lien{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    border-left: 4px solid var(--color1);
+}
+div.lien p{
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p.lien{
+    margin-bottom: 14px;
+}
+p.lien1{
+    margin-bottom: 14px;
+}
+a.lien{
+    color: var(--color2);
+    font-size: 14px;
+    text-decoration-line: none;
+    padding-left: 8px;
+}
+a.lien:hover{
+    color: blue;
+}
+div.contact{
+    text-align: center; 
+}
+a.contact{
+    border: 2px solid var(--color1);
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: 14px;
+    text-decoration-line: none;
+    color: var(--color1);
+    display: inline-block;
+    margin-top: 15px;
+}
+a.contact:hover{
+    border: 2px solid var(--color2);
+    color: var(--color2);
+}
+div.section{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+}
+div.section_gris{
+    background: var(--color3) url("triange2.png") no-repeat center bottom -1px/100% 100%;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    vertical-align: middle;
+}
+div.bar{
+    height: 1px;
+    width: 150px;
+    background-color: #979797;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+}
+div.section_gris p{
+    text-align: center;
+    font-size: 22px;
+    color: #656565;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+i{
+    font-weight: 900;
+}
+div.section_gris1{
+    background: var(--color3) url("triange1.png") no-repeat center top/100% 100%;
+    padding-top: 130px;
+    padding-bottom: 8px;
+}
+img.col1{
+    width: 40%;
+    height: 40%;
+}
+div.col{
+    width: 60%;
+    padding-left: 20px;
+}
+div.right{
+    float: right;}
+div.vertical_line{
+    border-left: 5px solid var(--color1);
+    height: 50px;
+    display: inline-block;
+}
+div.col p{
+    margin-left: 8px;
+    margin-top: 0;
+}
+div.col a{
+    display: inline-block;
+    margin-left: 38%;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: 2px solid var(--color1);
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: 12px;
+    text-decoration-line: none;
+    color: var(--color1);
+}
+h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 34px;
+}
+table.colporfolio{
+    width: 45%;
+}
+th div.bar1{
+    height: 50px;
+    width: 5px;
+    background-color: var(--color1);
+    margin-right: 8px;
+}
+table.t1{
+    float: right;
+}
+div.frame{
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: var(--color2);
+    box-shadow: 0 0 8px 8px #00000010;
+}
+div.frame p.p1{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img.image_contact{
+    width: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+div.frame div.vertical_line{
+    height: 40px;
+    margin-right: 10px;
+}
+div.vertical_line p.pp1{
+    margin-top: 0;
+    text-align: left;
+    padding-left: 10px;
+}
+/* porfolio */
+div.porfolio_header{
+    height: 90px;
+    background: url("cover.jpg") no-repeat center/cover;
+    vertical-align: middle;
+    position: relative;
+}
+h1.nom1{
+    color: white;
+    font-size: 26px;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: block;
+}
+a.position{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+a.porfolio_retour{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: -10px;
+}
+h1.porfolio_section{
+    color: black;
+    font-size: 46px;
+    text-transform: capitalize;
+    line-height: 1;
+    margin-top: 10px;
+}
+h2.titre2{
+    font-weight: 500;
+    font-size: 26px;
+}
+P.text1{
+    margin-top: 0%;
+    line-height: 2;
+    margin-left: 10px;
+}
+div.image1{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+a.lien_web{
+    display: inline-block;
+}
+div.display-mobile{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    h1.nom{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    img.photo{
+        margin-top: 90px;
+    }
+    p.description{
+        font-size: 12px;
+        margin-bottom: 8.5px;
+    }
+    a.lien{
+        font-size: 12px;
+    }
+    div.section{
+        padding-bottom: 0px;
+    }
+    div.section_gris{
+        height: 100px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+        overflow: unset;
+    }
+    div.bar{
+        height: 1px;
+        width: 130px;
+        left: 50%;
+        margin-left: -65px;
+    }
+    div.section_gris p{
+        font-size: 14px;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    i{
+        font-weight: 900;
+    }
+    div.section_gris1{
+        background: var(--color3) url("triange1.png") no-repeat center top/100% 100%;
+        padding-top: 130px;
+        padding-bottom: 8px;
+    }
+    img.col1{
+        width: 100%;
+        height: 25%;
+    }
+    div.col{
+        width: 100%;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    div.col a{
+        margin-left: 10%;
+    }
+    h2{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 6px;
+        font-size: 25px;
+    }
+    table.colporfolio{
+        width: 100%;
+    }
+    div.frame{
+        margin: 2px 3px;
+        padding: 2.5px 5px;
+        background-color: var(--color2);
+        box-shadow: 0 0 8px 8px #00000010;
+    }
+    div.frame p.p1{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    img.image_contact{
+        width: 100px; 
+        margin-left: 0;
+    }
+    div.frame div.vertical_line{
+        height: 40px;
+        margin-right: 10px;
+    }
+    div.vertical_line p.pp1{
+        margin-top: 0;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+    /* porfolio */
+    div.porfolio_header{
+        height: 80px;
+    }
+    h1.nom1{
+        color: white;
+        font-size: 15px;
+        margin-left: 8px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        display: block;
+    }
+    a.position{
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
+    div.section1{
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    a.porfolio_retour{
+        text-decoration: none;
+        font-size: 12px;
+        padding-left: -10px;
+    }
+    h1.porfolio_section{
+        font-size: 26px;
+        line-height: 1;
+        margin-top: 5px;
+    }
+    div.s1{
+        padding-top: 0;
+    }
+    div.s1 p{
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    h2.titre2{
+        font-weight: 500;
+        font-size: 15px;
+    }
+    P.text1{
+        margin-top: 0%;
+        line-height: 1.5;
+        margin-left: 10px;
+    }
+    div.image1{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    img.image11{
+        width: 90%;
+        height: 8%;
+    }
+    a.lien_web{
+        display: inline-block;
+    }
+    div.display-mobile{
+        display: block;
+        height: 2.5px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+}
